@@ -1,2 +1,12 @@
-# Stripe-and-nodejs-universal-payments
-pasarela de pagos web con Stripe y Node js
+#Web básica de ventas con Stripe y Node js
+
+##Para preparar los paquetes utilizados en backend:
+
+npm init -y
+
+npm i express express-handlebars
+
+##About:
+
+[Stripe](https://stripe.com/about)
+
