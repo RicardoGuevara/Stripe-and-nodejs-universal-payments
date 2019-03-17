@@ -8,5 +8,10 @@ npm i express express-handlebars
 
 ##About:
 
-[Stripe](https://stripe.com/about)
+[Stripe - pasarela de pagos](https://stripe.com/about)
 
+[Bootstrap - framework css](https://getbootstrap.com)
+
+[Bootswatch - bootstrap modified](https://bootswatch.com)
+
+[FontAwesome - icons and fonts](https://fontawesome.com)
