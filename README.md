@@ -17,10 +17,10 @@ npm i express express-handlebars stripe
 [FontAwesome - icons and fonts](https://fontawesome.com)
 
 ## Resumen:
-<div align="center" >
-<table>
+<div align="center" width="100%">
+<table width="100%">
 	<thead>
-    <tr>
+    <tr >
       <th scope="col"><h3>Características</h3></th>
     </tr>
   </thead>
@@ -28,7 +28,7 @@ npm i express express-handlebars stripe
     <tr>
 	    <td>
 	    <p>
-	    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pag_principal1.PNG" width="400" />  
+	    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pag_principal1.PNG" width="300" />  
 	    <h3>Biblioteca de productos: </h3>
 	    Muestra de productos disponibles en la plataforma
 	    <h3>Pagos individuales habilitados: </h3>
@@ -39,7 +39,7 @@ npm i express express-handlebars stripe
 	<tr>
 	<td>
 		<p>
-		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/ventana_pago_1.PNG" width="400" />  
+		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/ventana_pago_1.PNG" width="300" />  
 		    <h3>Ventana de pago: </h3>
 		    Descripción de producto e identificador de pagos con verificación (Stripe)
 		    <h3>Tarjetas habilitadas: </h3>
@@ -51,7 +51,7 @@ npm i express express-handlebars stripe
 	<tr>
 	<td>
 		<p>
-		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/succes1.PNG" width="400" />  
+		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/succes1.PNG" width="300" />  
 		    <h3>Mensaje de compra exitosa: </h3>
 		    Acción configurable
 		  </p>
@@ -60,7 +60,7 @@ npm i express express-handlebars stripe
 	<tr>
 	<td>
 		<p>
-		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pago_efectivo1.PNG" width="400" />  
+		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pago_efectivo1.PNG" width="300" />  
 		    <h3>Verificaciones en Stripe: </h3>
 		    Información de cada compra realizada en la plataforma
 		  </p>
@@ -70,31 +70,4 @@ npm i express express-handlebars stripe
 </table>
 </div>
 
-## Reciclable
 
-<div>
-	<h3>
-		Stripe API y solicitudes asincronas en Js, respuestas get/post
-	</h3>
-	<code>
-		router.get('/',(req,res) => {
-			res.render('index');
-		});
-		router.post('/checkout', async (req,res) =>{
-			console.log("\x1b[36m%s\x1b[0m","Pago recivido")
-		  	console.log(req.body);
-		  	const customer = await stripe.customers.create({
-		  		email: req.body.stripeEmail,
-		  		source: req.body.stripeToken
-		  	});
-			const charge = await stripe.charges.create({
-				amount: '1000',
-				currency: 'usd',
-				customer: customer.id,
-				description: 'descripción de productos'
-			});
-			console.log(charge.id);
-			res.render('succes');
-		});
-	</code>
-</div>
