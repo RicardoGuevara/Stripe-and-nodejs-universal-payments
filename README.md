@@ -17,42 +17,57 @@ npm i express express-handlebars stripe
 [FontAwesome - icons and fonts](https://fontawesome.com)
 
 ## Resumen:
-<div align="center">
-<ul>
-<li>
-  <p>
-    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pag_principal1.PNG" width="400" />  
-    <h3>Biblioteca de productos: </h3>
-    Muestra de productos disponibles en la plataforma
-    <h3>Pagos individuales habilitados: </h3>
-    Pago individual de productos con tarjeta (visa/mastercard)
-  </p>
-</li>
-<li>
-  <p>
-    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/ventana_pago_1.PNG" width="400" />  
-    <h3>Ventana de pago: </h3>
-    Descripción de producto e identificador de pagos con verificación (Stripe)
-    <h3>Tarjetas habilitadas: </h3>
-   	<a href="https://stripe.com/docs/testing">Tarjetas de test - Stripe</a>
-   	Tarjetas reales visa o mastercard
-  </p>
-</li>
-<li>
-  <p>
-    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/succes1.PNG" width="400" />  
-    <h3>Mensaje de compra exitosa: </h3>
-    Acción configurable
-  </p>
-</li>
-<li>
-  <p>
-    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pago_efectivo1.PNG" width="400" />  
-    <h3>Verificaciones en Stripe: </h3>
-    Información de cada compra realizada en la plataforma
-  </p>
-</li>
-</ult>
+<div align="center" >
+<table>
+	<thead>
+    <tr>
+      <th scope="col"><h3>Características</h3></th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+	    <td>
+	    <p>
+	    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pag_principal1.PNG" width="400" />  
+	    <h3>Biblioteca de productos: </h3>
+	    Muestra de productos disponibles en la plataforma
+	    <h3>Pagos individuales habilitados: </h3>
+	    Pago individual de productos con tarjeta (visa/mastercard)
+	  </p>
+	</td>
+    </tr>
+	<tr>
+	<td>
+		<p>
+		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/ventana_pago_1.PNG" width="400" />  
+		    <h3>Ventana de pago: </h3>
+		    Descripción de producto e identificador de pagos con verificación (Stripe)
+		    <h3>Tarjetas habilitadas: </h3>
+			<a href="https://stripe.com/docs/testing">Tarjetas de test - Stripe</a>
+			Tarjetas reales visa o mastercard
+		  </p>
+		  </td>
+	</tr>
+	<tr>
+	<td>
+		<p>
+		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/succes1.PNG" width="400" />  
+		    <h3>Mensaje de compra exitosa: </h3>
+		    Acción configurable
+		  </p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+		<p>
+		    <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pago_efectivo1.PNG" width="400" />  
+		    <h3>Verificaciones en Stripe: </h3>
+		    Información de cada compra realizada en la plataforma
+		  </p>
+	</td>
+	</tr>	
+</tbody>
+</table>
 </div>
 
 ## Reciclable
@@ -61,7 +76,7 @@ npm i express express-handlebars stripe
 	<h3>
 		Stripe API y solicitudes asincronas en Js, respuestas get/post
 	</h3>
-	<code class="language-js">
+	<code>
 		router.get('/',(req,res) => {
 			res.render('index');
 		});
