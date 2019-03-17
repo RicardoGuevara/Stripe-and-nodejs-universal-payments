@@ -19,7 +19,6 @@ npm i express express-handlebars stripe
 ## Resumen:
 
 <div align="center">
-  
   <p>
     <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pag_principal1.PNG" width="400" />  
     <h3>Biblioteca de productos: </h3>
@@ -27,6 +26,8 @@ npm i express express-handlebars stripe
     <h3>Pagos individuales habilitados: </h3>
     Pago individual de productos con tarjeta (visa/mastercard)
   </p>
+</div>
+<div align="center">
   <p>
     <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/ventana_pago_1.PNG" width="400" />  
     <h3>Ventana de pago: </h3>
@@ -35,17 +36,20 @@ npm i express express-handlebars stripe
    	<a href="https://stripe.com/docs/testing">Tarjetas de test - Stripe</a>
    	Tarjetas reales visa o mastercard
   </p>
+</div>
+<div align="center">
   <p>
     <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/succes1.PNG" width="400" />  
     <h3>Mensaje de compra exitosa: </h3>
     Acción configurable
   </p>
+</div>
+<div align="center">
   <p>
     <img align="left" src="https://github.com/RicardoGuevara/Stripe-and-nodejs-universal-payments/blob/master/repo_images/pago_efectivo1.PNG" width="400" />  
     <h3>Verificaciones en Stripe: </h3>
     Información de cada compra realizada en la plataforma
   </p>
-
 </div>
 
 ## Reciclable
